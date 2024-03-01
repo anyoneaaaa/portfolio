@@ -1,0 +1,12 @@
+What knind of message?
+responsible:-BLUE is the color of trust and responsibility
+reliable:-BLUE is the color of trust and responsibility
+passinate:-Red is for passion, love
+creativty:-orange is considered the color of creativity
+
+body #42adff
+
+ayush agarwal:- font-size: 25px
+                color: #1a54c0
+                font-family: serif
+                font-weight: bolder

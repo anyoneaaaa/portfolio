@@ -1,0 +1,36 @@
+{% load static %}
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayush Agarwal</title>
+  <link rel="stylesheet" href="{% static 'style.css'%}">
+  <script type = 'text/javascript' src="{% static 'scripts.js' %}"></script>
+</head>
+<body >
+  <div class="navbar" >
+    <div class ="name"><h3>AYUSH AGARWAL</h3></div>
+    <ul class="navbar_center_container">
+      <li class="nav_menu"><a class="nav_bar_center_content" href="#ux_ui_section">UX/UI</a></li>
+      <li class="nav_menu"><a class="nav_bar_center_content" href="#front_end_section">FRONT-END DEVLOPMENT</a></li>
+      <li class="nav_menu"><a class="nav_bar_center_content" href="#back_end_section">BACK-END DEVVLOPMENT</a></li>
+      <li class="nav_menu"><a class="nav_bar_center_content" href="#contact">CONTACT</a></li>
+    </ul>
+  </div>
+  <div id='ux_ui_section' class="ux_ui_post">
+    <a class="ux_ui_content" href="http://" target="_blank" rel="noopener noreferrer">ARE YOU LOOKING UX/UI DESIGNER ?</a>
+  </div>
+  <div id='front_end_section' class="front_end scrollFade">
+    <a class="front_end_content" href="http://" target="_blank" rel="noopener noreferrer">ARE YOU LOOKING FOR FRONT-END DEVLOPER ?</a>
+  </div>
+  <div id='back_end_section' class="back_end scrollFade">
+    <a href="" class="back_end_content">ARE YOU LOOKING FOR BACK-END DEVLOPER ?</a>
+  </div>
+  <div id='contact' class="contact">
+    <h1>CONTACT ME AT</h1>
+  </div>
+</body>
+</html>
